@@ -1,0 +1,17 @@
+
+<h1>job board</h1>
+
+<thead>
+  <tr>
+    <th> Collection Names </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      <% @job_ads.each do |j| %>
+        <%= j.name %>
+      <%end%>
+    </td>
+  </tr>
+</tbody>
